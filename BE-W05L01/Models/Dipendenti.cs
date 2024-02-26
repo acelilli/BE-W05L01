@@ -18,7 +18,7 @@ namespace BE_W05L01.Models
         [Display(Name ="Sposato:")]
         public bool Coniugato { get; set; }
 
-        [Display(Name = "Codice fiscale:")]
+        [Display(Name = "Figli a carico:")]
         public int NFigliACarico { get; set; }
         public string Mansione { get; set; }
 
