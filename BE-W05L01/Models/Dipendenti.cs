@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
@@ -11,8 +12,13 @@ namespace BE_W05L01.Models
         public string Nome { get; set; }
         public string Cognome { get; set; }
         public string Indirizzo { get; set; }
+        [Display(Name ="Codice fiscale:")]
         public string CF { get; set; }
+
+        [Display(Name ="Sposato:")]
         public bool Coniugato { get; set; }
+
+        [Display(Name = "Codice fiscale:")]
         public int NFigliACarico { get; set; }
         public string Mansione { get; set; }
 
